@@ -19,3 +19,14 @@ Note: If using on a local machine, ensure you have the following:
 - Node.js (with npm)
 - OpenWeather API key (free to get at https://openweathermap.org/)
 - GeoDB API key (free to get at https://rapidapi.com/wirefreethought/api/geodb-cities/)
+- create a .env file and add the following code (replace the text after '=' with your own key): REACT_APP_WEATHER_API_KEY=your_openweather_api_key
+                                                                                                REACT_APP_RAPIDAPI_KEY=your_geodb_api_key
+
+To run, do the following in terminal:
+- copy/clone this repo
+- cd weather-app/react-weather-app/
+- npm install
+- npm start
+Project should open at http://localhost:3000 :)
+  
+
