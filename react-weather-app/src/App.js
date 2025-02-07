@@ -19,11 +19,6 @@ function App() {
     const currentWeatherFetch = fetch(`${weatherAPIurl}/weather?lat=${roundedLat}&lon=${roundedLong}&appid=${weatherAPIkey}&units=metric`);
     const forecastFetch = fetch(`${weatherAPIurl}/forecast?lat=${roundedLat}&lon=${roundedLong}&appid=${weatherAPIkey}&units=metric`);
 
-  //  const currentWeatherFetch = fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${roundedLat}&lon=${roundedLong}&appid=920cca7156a01bbcceaf5b1214821645
-   // `);
- //   const forecastFetch = fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${roundedLat}&lon=${roundedLong}&appid=920cca7156a01bbcceaf5b1214821645
-   // `);
-
 
 
     Promise.all([currentWeatherFetch, forecastFetch])
